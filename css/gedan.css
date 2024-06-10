@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 640px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+
+.playlist-container {
+  padding: 20px;
+  background-color:pink;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.song-number {
+  width: 50px;
+  text-align: right;
+  padding-right: 20px;
+  color: #999;
+}
+
+.song-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.song-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.play-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.play-button:hover {
+  background-color: #0056b3;
+}
+.t_beijing {
+  width: 100%;
+  height: 256px;
+  background: url(../images/31.png) no-repeat;
+  background-size: 100% 256px;
+}
+.touxiang {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.t1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.nicheng {
+  text-align: center;
+  font-family: 隶书;
+  font-size: 20px;
+}

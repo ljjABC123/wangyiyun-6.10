@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin:0 auto;
+  min-width: 320px;
+  max-width: 640px;
+  font-size: 14px;
+  line-height: 1.5;
+  color:#666;
+}
+.search{
+  position: relative;;
+height:44px;
+overflow: hidden;
+}
+.search_left{
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: aqua;
+  width: 42px;
+  height: 44px;
+  background: url(../images/1.png) no-repeat;
+  background-size: 42px 44px;
+  background-position: center center;
+}
+
+.search_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42px;
+  height: 44px;
+  background: url(../images/2.png) no-repeat;
+    background-size: 19px 28px;
+    background-position: center center;
+}
+.search_z{
+  height:30px;
+  background-color:#e9e3e0;
+  margin: 0 50px;
+  border-radius: 15px;
+  margin-top: 7px;
+}
+.input_s{
+  text-align: center;
+  border: 0px;
+  height: 26px;
+  width: 293px;
+    background-color: #e9e3e0;
+    border-radius: 15px;
+}
+.input_2{
+  text-align: center;
+    border: 0px;
+    height: 20px;
+    width: 200px;
+    background-color: pink;
+    border-radius: 13px;
+}
+.search_xia{
+  overflow: hidden;
+  height: 50px;
+}
+.search_xia_1{
+  margin-top:13px ;
+  float: left;
+}
+.search_xia_2 {
+  float: right;
+  margin-top: 25px;
+}
+li {
+  width: 25%;
+  height: 125px;
+  /* margin-left: 12px; */
+  float: left;
+  list-style: none;
+}
+.li1{
+  overflow: hidden;
+  margin-top: 8px;
+}
+.li2{
+  padding-left: 5px;
+}
+/* 中间未做 */
+.kong{
+  background-color: pink;
+  height: 420px;
+}
+/* 底部 */
+.xia a{
+float: left;
+width: 20%;
+}
+/* 侧边栏 */
+.sidebar {
+  background-color: #f6f6f6;
+  position: fixed;
+  top: 0;
+  left: -320px;
+  /* 初始状态隐藏侧边栏 */
+  width: 275px;
+  color: #fff;
+  transition: left 0.3s;
+   z-index: 20;
+  padding: 20px;
+}
+
+.main-content {
+  padding-left: 20px;
+}
+.c_top image{
+margin-left: 0;
+}
